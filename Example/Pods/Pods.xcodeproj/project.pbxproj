@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B95758229F3BA29A943AE78CD5D66EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2ED3F965241EF797C6EC8A5E00BAAF1D /* Pods-YGButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1024CFEBBF16258CDEF84042C978BC /* Pods-YGButton_Example-dummy.m */; };
+		3012473F609D3FCD6014D76D4F97637C /* Pods-YGButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31225A71F30756BDBE0B247AE00761A8 /* Pods-YGButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3448E29335C3D7EFC8422274912063BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5CF742CEF9AFA30FEC078E656FA59B06 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E524873F9E1D99BEDA082355FAE35C8C /* ReplaceMe.swift */; };
+		810B6161FC5C49BFABC86683C19DF95C /* Pods-YGButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22723EA1EB09AE0C6E920D8ECB6C6020 /* Pods-YGButton_Tests-dummy.m */; };
+		91B0C07DC13D34E62FB94B20D7487957 /* YGButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBCBA3394AC88E700F0229871D49E19 /* YGButton-dummy.m */; };
+		A0A8C377CB8A9F4853D46702B203930C /* YGButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8F36C5D546B1D3E1853E502205456 /* YGButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF812B6342BBAD81781049537862E77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F896FDC5AECFF59E611055F3C9741149 /* Pods-YGButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B76F71B2DD370B75A057028558E711 /* Pods-YGButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21B65B3CC9D44BC618DAC9E5BFDD5840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4664CE0F6D65F9C145F6F60B7FD0D7B;
+			remoteInfo = "Pods-YGButton_Example";
+		};
+		7FE0FA01F7F0E03A5FD9499647161C1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F71DBFA815B27A5F6FDFDAEFF05BEE5;
+			remoteInfo = YGButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B79EAB7EB789323B9A3F3F8E2308B8F /* Pods_YGButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1024CFEBBF16258CDEF84042C978BC /* Pods-YGButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YGButton_Example-dummy.m"; sourceTree = "<group>"; };
+		1DC0FE85CCF8A8FDB3E8ABF70B2A516D /* YGButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YGButton.modulemap; sourceTree = "<group>"; };
+		22723EA1EB09AE0C6E920D8ECB6C6020 /* Pods-YGButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YGButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		31225A71F30756BDBE0B247AE00761A8 /* Pods-YGButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YGButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37ACB48E3D2E981E16D70C783D76A74A /* Pods-YGButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YGButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		5F6606B2B229AC56116B872243500746 /* Pods-YGButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YGButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BBCBA3394AC88E700F0229871D49E19 /* YGButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YGButton-dummy.m"; sourceTree = "<group>"; };
+		7523E2570CAB709275E29BDFAFBC2EC6 /* YGButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YGButton.debug.xcconfig; sourceTree = "<group>"; };
+		7AFD3C817A6325790A1D4C77AC30C7C4 /* YGButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YGButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		944EA647ACB85948E91C26FA8937C9D7 /* YGButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YGButton-Info.plist"; sourceTree = "<group>"; };
+		9B3137277B70655483C39FB6069683BE /* Pods-YGButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YGButton_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAE911ADBFF0D07E1C60920957094C8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C1C6CB1936766FE9680703DB14C29DC9 /* YGButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YGButton.release.xcconfig; sourceTree = "<group>"; };
+		C2F59221AF50CF1DB4E7979A0FA60D2E /* Pods_YGButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B76F71B2DD370B75A057028558E711 /* Pods-YGButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YGButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		C816A68FB562B2B8C8B583BA60814082 /* Pods-YGButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YGButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8E2A27D12149DD3FB3C1CE471A4AE88 /* Pods-YGButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YGButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC4936B151401722342C1782EF177D2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CD4B6850FF1901DB9F9181271E51B749 /* YGButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YGButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A8F36C5D546B1D3E1853E502205456 /* YGButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YGButton-umbrella.h"; sourceTree = "<group>"; };
+		D5FCBCA495FF7F68CFAD10B5649F1FD7 /* Pods-YGButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YGButton_Tests.modulemap"; sourceTree = "<group>"; };
+		DA2210AE3B3BC93A0310670FD920A458 /* Pods-YGButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YGButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DA6FAAA4DA236618E797E463E887B752 /* Pods-YGButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YGButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1941A15DC2C87DE8DF282F509870B1E /* Pods-YGButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YGButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E3EA3853F1CDB77B3A64165E1C2B727C /* YGButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YGButton-prefix.pch"; sourceTree = "<group>"; };
+		E524873F9E1D99BEDA082355FAE35C8C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = YGButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		EAAF4B7A3ABF5F7851DE1207DFEDD79F /* Pods-YGButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YGButton_Example.modulemap"; sourceTree = "<group>"; };
+		F469A4717669E1887C7EBC6E4E08D35B /* Pods-YGButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YGButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F5C576A35C9933CDAED73E4AE26B483A /* Pods-YGButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YGButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF38C122D3E9F0302B38BE6C3A2C8F29 /* Pods-YGButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YGButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B9E1CFDFD9329C243469D66A6B227AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B95758229F3BA29A943AE78CD5D66EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9833A8771C0D454ADE57B4C324ACC19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF812B6342BBAD81781049537862E77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF04AEA854AEE844C127B9814E236B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3448E29335C3D7EFC8422274912063BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17415FC92D75288B3419934AC4F2F9EB /* Pods-YGButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF4B7A3ABF5F7851DE1207DFEDD79F /* Pods-YGButton_Example.modulemap */,
+				C816A68FB562B2B8C8B583BA60814082 /* Pods-YGButton_Example-acknowledgements.markdown */,
+				F5C576A35C9933CDAED73E4AE26B483A /* Pods-YGButton_Example-acknowledgements.plist */,
+				1C1024CFEBBF16258CDEF84042C978BC /* Pods-YGButton_Example-dummy.m */,
+				F469A4717669E1887C7EBC6E4E08D35B /* Pods-YGButton_Example-frameworks.sh */,
+				9B3137277B70655483C39FB6069683BE /* Pods-YGButton_Example-Info.plist */,
+				C5B76F71B2DD370B75A057028558E711 /* Pods-YGButton_Example-umbrella.h */,
+				E1941A15DC2C87DE8DF282F509870B1E /* Pods-YGButton_Example.debug.xcconfig */,
+				DA2210AE3B3BC93A0310670FD920A458 /* Pods-YGButton_Example.release.xcconfig */,
+			);
+			name = "Pods-YGButton_Example";
+			path = "Target Support Files/Pods-YGButton_Example";
+			sourceTree = "<group>";
+		};
+		32A7157A9180283CCD981D0093CCF070 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17415FC92D75288B3419934AC4F2F9EB /* Pods-YGButton_Example */,
+				89EE41550437373C1D8E1DF752651F1B /* Pods-YGButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		410BCED56892DDD63D4521305AEC6867 /* YGButton */ = {
+			isa = PBXGroup;
+			children = (
+				E524873F9E1D99BEDA082355FAE35C8C /* ReplaceMe.swift */,
+				8CD488DE9EF374D66BB96DDE0683537E /* Pod */,
+				F7FA116DD09CD7AB5FCD42034D45E3E3 /* Support Files */,
+			);
+			name = YGButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7FAE3A0666DBACA5CA685B3EFCDECE30 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				410BCED56892DDD63D4521305AEC6867 /* YGButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		89EE41550437373C1D8E1DF752651F1B /* Pods-YGButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D5FCBCA495FF7F68CFAD10B5649F1FD7 /* Pods-YGButton_Tests.modulemap */,
+				FF38C122D3E9F0302B38BE6C3A2C8F29 /* Pods-YGButton_Tests-acknowledgements.markdown */,
+				DA6FAAA4DA236618E797E463E887B752 /* Pods-YGButton_Tests-acknowledgements.plist */,
+				22723EA1EB09AE0C6E920D8ECB6C6020 /* Pods-YGButton_Tests-dummy.m */,
+				37ACB48E3D2E981E16D70C783D76A74A /* Pods-YGButton_Tests-Info.plist */,
+				31225A71F30756BDBE0B247AE00761A8 /* Pods-YGButton_Tests-umbrella.h */,
+				5F6606B2B229AC56116B872243500746 /* Pods-YGButton_Tests.debug.xcconfig */,
+				C8E2A27D12149DD3FB3C1CE471A4AE88 /* Pods-YGButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-YGButton_Tests";
+			path = "Target Support Files/Pods-YGButton_Tests";
+			sourceTree = "<group>";
+		};
+		8CD488DE9EF374D66BB96DDE0683537E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CC4936B151401722342C1782EF177D2C /* LICENSE */,
+				BAE911ADBFF0D07E1C60920957094C8C /* README.md */,
+				7AFD3C817A6325790A1D4C77AC30C7C4 /* YGButton.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B0200CE223AD1AA23FFA5B9361DD20A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2F59221AF50CF1DB4E7979A0FA60D2E /* Pods_YGButton_Example.framework */,
+				1B79EAB7EB789323B9A3F3F8E2308B8F /* Pods_YGButton_Tests.framework */,
+				CD4B6850FF1901DB9F9181271E51B749 /* YGButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7FAE3A0666DBACA5CA685B3EFCDECE30 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B0200CE223AD1AA23FFA5B9361DD20A2 /* Products */,
+				32A7157A9180283CCD981D0093CCF070 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7FA116DD09CD7AB5FCD42034D45E3E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DC0FE85CCF8A8FDB3E8ABF70B2A516D /* YGButton.modulemap */,
+				6BBCBA3394AC88E700F0229871D49E19 /* YGButton-dummy.m */,
+				944EA647ACB85948E91C26FA8937C9D7 /* YGButton-Info.plist */,
+				E3EA3853F1CDB77B3A64165E1C2B727C /* YGButton-prefix.pch */,
+				D0A8F36C5D546B1D3E1853E502205456 /* YGButton-umbrella.h */,
+				7523E2570CAB709275E29BDFAFBC2EC6 /* YGButton.debug.xcconfig */,
+				C1C6CB1936766FE9680703DB14C29DC9 /* YGButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YGButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D7D81BAB626699587930BD59437CA74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3012473F609D3FCD6014D76D4F97637C /* Pods-YGButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788D9987E8224B4E0936301C9E487AA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A8C377CB8A9F4853D46702B203930C /* YGButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D94C9814928D62345C8EA60AB90FB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F896FDC5AECFF59E611055F3C9741149 /* Pods-YGButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F71DBFA815B27A5F6FDFDAEFF05BEE5 /* YGButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804E0A1C94BCAA97617267913DCC935B /* Build configuration list for PBXNativeTarget "YGButton" */;
+			buildPhases = (
+				788D9987E8224B4E0936301C9E487AA0 /* Headers */,
+				268448E581C27AE79787621684C56632 /* Sources */,
+				5B9E1CFDFD9329C243469D66A6B227AA /* Frameworks */,
+				DA6052FBF0423AED0E337170AD65E4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YGButton;
+			productName = YGButton;
+			productReference = CD4B6850FF1901DB9F9181271E51B749 /* YGButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4664CE0F6D65F9C145F6F60B7FD0D7B /* Pods-YGButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC95AB84E30E904D0EF53B5F7DC6BAB /* Build configuration list for PBXNativeTarget "Pods-YGButton_Example" */;
+			buildPhases = (
+				A6D94C9814928D62345C8EA60AB90FB4 /* Headers */,
+				547D41AB17805CFDBE289296EBFDDFCB /* Sources */,
+				9833A8771C0D454ADE57B4C324ACC19F /* Frameworks */,
+				C6BD337F5FFD05C0B553887B76DCC0B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3A80A7CC93E6B77F90220A2FC400EA3 /* PBXTargetDependency */,
+			);
+			name = "Pods-YGButton_Example";
+			productName = "Pods-YGButton_Example";
+			productReference = C2F59221AF50CF1DB4E7979A0FA60D2E /* Pods_YGButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5C16D3BC315329FF4BDD9E842944944 /* Pods-YGButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAD6DED16EE6DF15429DA9FA2E6777D /* Build configuration list for PBXNativeTarget "Pods-YGButton_Tests" */;
+			buildPhases = (
+				6D7D81BAB626699587930BD59437CA74 /* Headers */,
+				329677DC8888B2251CB7141F8FCA8BDB /* Sources */,
+				EF04AEA854AEE844C127B9814E236B66 /* Frameworks */,
+				528EC3B4B36CF6E5BFEBDDEEE9EE538A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCDFE14BD25879CF99E7A8A915DAA63B /* PBXTargetDependency */,
+			);
+			name = "Pods-YGButton_Tests";
+			productName = "Pods-YGButton_Tests";
+			productReference = 1B79EAB7EB789323B9A3F3F8E2308B8F /* Pods_YGButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1F71DBFA815B27A5F6FDFDAEFF05BEE5 = {
+						LastSwiftMigration = 1200;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B0200CE223AD1AA23FFA5B9361DD20A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4664CE0F6D65F9C145F6F60B7FD0D7B /* Pods-YGButton_Example */,
+				B5C16D3BC315329FF4BDD9E842944944 /* Pods-YGButton_Tests */,
+				1F71DBFA815B27A5F6FDFDAEFF05BEE5 /* YGButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		528EC3B4B36CF6E5BFEBDDEEE9EE538A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BD337F5FFD05C0B553887B76DCC0B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6052FBF0423AED0E337170AD65E4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268448E581C27AE79787621684C56632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF742CEF9AFA30FEC078E656FA59B06 /* ReplaceMe.swift in Sources */,
+				91B0C07DC13D34E62FB94B20D7487957 /* YGButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329677DC8888B2251CB7141F8FCA8BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810B6161FC5C49BFABC86683C19DF95C /* Pods-YGButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547D41AB17805CFDBE289296EBFDDFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED3F965241EF797C6EC8A5E00BAAF1D /* Pods-YGButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3A80A7CC93E6B77F90220A2FC400EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YGButton;
+			target = 1F71DBFA815B27A5F6FDFDAEFF05BEE5 /* YGButton */;
+			targetProxy = 7FE0FA01F7F0E03A5FD9499647161C1F /* PBXContainerItemProxy */;
+		};
+		DCDFE14BD25879CF99E7A8A915DAA63B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YGButton_Example";
+			target = A4664CE0F6D65F9C145F6F60B7FD0D7B /* Pods-YGButton_Example */;
+			targetProxy = 21B65B3CC9D44BC618DAC9E5BFDD5840 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7FB4D4A79A1B0EC488782DCAD6CF1A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2210AE3B3BC93A0310670FD920A458 /* Pods-YGButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YGButton_Example/Pods-YGButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YGButton_Example/Pods-YGButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7FF630A5757AD6847B08A79A48ED8BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E2A27D12149DD3FB3C1CE471A4AE88 /* Pods-YGButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YGButton_Tests/Pods-YGButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YGButton_Tests/Pods-YGButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B758CBE84E1EA4E330FB718EEC395337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7523E2570CAB709275E29BDFAFBC2EC6 /* YGButton.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YGButton/YGButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YGButton/YGButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YGButton/YGButton.modulemap";
+				PRODUCT_MODULE_NAME = YGButton;
+				PRODUCT_NAME = YGButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E6C08FB50A36143B5E84189AE6DA36B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C6CB1936766FE9680703DB14C29DC9 /* YGButton.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YGButton/YGButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YGButton/YGButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YGButton/YGButton.modulemap";
+				PRODUCT_MODULE_NAME = YGButton;
+				PRODUCT_NAME = YGButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC9409577425F3FEF63FD7A46BF49A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6606B2B229AC56116B872243500746 /* Pods-YGButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YGButton_Tests/Pods-YGButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YGButton_Tests/Pods-YGButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7417CD72FACD743E50132059739F1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1941A15DC2C87DE8DF282F509870B1E /* Pods-YGButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YGButton_Example/Pods-YGButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YGButton_Example/Pods-YGButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804E0A1C94BCAA97617267913DCC935B /* Build configuration list for PBXNativeTarget "YGButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B758CBE84E1EA4E330FB718EEC395337 /* Debug */,
+				E6C08FB50A36143B5E84189AE6DA36B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DAD6DED16EE6DF15429DA9FA2E6777D /* Build configuration list for PBXNativeTarget "Pods-YGButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9409577425F3FEF63FD7A46BF49A5B /* Debug */,
+				A7FF630A5757AD6847B08A79A48ED8BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC95AB84E30E904D0EF53B5F7DC6BAB /* Build configuration list for PBXNativeTarget "Pods-YGButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7417CD72FACD743E50132059739F1B8 /* Debug */,
+				7FB4D4A79A1B0EC488782DCAD6CF1A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

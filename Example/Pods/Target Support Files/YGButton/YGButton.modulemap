@@ -1,0 +1,6 @@
+framework module YGButton {
+  umbrella header "YGButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

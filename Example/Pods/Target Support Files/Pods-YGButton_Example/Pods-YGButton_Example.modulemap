@@ -1,0 +1,6 @@
+framework module Pods_YGButton_Example {
+  umbrella header "Pods-YGButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
