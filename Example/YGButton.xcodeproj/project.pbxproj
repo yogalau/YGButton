@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6AA7BBDED14108CF4CACEE8A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6D96061E91405ACF6B9DD580 /* Pods_YGButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		987994CB3593897571078723 /* YGButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YGButton.podspec; path = ../YGButton.podspec; sourceTree = "<group>"; };
+		987994CB3593897571078723 /* YGButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YGButton.podspec; path = ../YGButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C1BEA0A3255A2E64003C0B49 /* YGButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGButton.swift; sourceTree = "<group>"; };
 		D1D3A7D8F70ABAA6B9BA093C /* Pods_YGButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C3458AF43136AF7277EBA5 /* Pods-YGButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YGButton_Tests/Pods-YGButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
