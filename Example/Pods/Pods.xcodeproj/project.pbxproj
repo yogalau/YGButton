@@ -11,7 +11,7 @@
 		2ED3F965241EF797C6EC8A5E00BAAF1D /* Pods-YGButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1024CFEBBF16258CDEF84042C978BC /* Pods-YGButton_Example-dummy.m */; };
 		3012473F609D3FCD6014D76D4F97637C /* Pods-YGButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31225A71F30756BDBE0B247AE00761A8 /* Pods-YGButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3448E29335C3D7EFC8422274912063BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5CF742CEF9AFA30FEC078E656FA59B06 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E524873F9E1D99BEDA082355FAE35C8C /* ReplaceMe.swift */; };
+		5CF742CEF9AFA30FEC078E656FA59B06 /* YGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E524873F9E1D99BEDA082355FAE35C8C /* YGButton.swift */; };
 		810B6161FC5C49BFABC86683C19DF95C /* Pods-YGButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22723EA1EB09AE0C6E920D8ECB6C6020 /* Pods-YGButton_Tests-dummy.m */; };
 		91B0C07DC13D34E62FB94B20D7487957 /* YGButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBCBA3394AC88E700F0229871D49E19 /* YGButton-dummy.m */; };
 		A0A8C377CB8A9F4853D46702B203930C /* YGButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8F36C5D546B1D3E1853E502205456 /* YGButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,7 +65,7 @@
 		DA6FAAA4DA236618E797E463E887B752 /* Pods-YGButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YGButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E1941A15DC2C87DE8DF282F509870B1E /* Pods-YGButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YGButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E3EA3853F1CDB77B3A64165E1C2B727C /* YGButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YGButton-prefix.pch"; sourceTree = "<group>"; };
-		E524873F9E1D99BEDA082355FAE35C8C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = YGButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E524873F9E1D99BEDA082355FAE35C8C /* YGButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YGButton.swift; path = YGButton/Classes/YGButton.swift; sourceTree = "<group>"; };
 		EAAF4B7A3ABF5F7851DE1207DFEDD79F /* Pods-YGButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YGButton_Example.modulemap"; sourceTree = "<group>"; };
 		F469A4717669E1887C7EBC6E4E08D35B /* Pods-YGButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YGButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F5C576A35C9933CDAED73E4AE26B483A /* Pods-YGButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YGButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		410BCED56892DDD63D4521305AEC6867 /* YGButton */ = {
 			isa = PBXGroup;
 			children = (
-				E524873F9E1D99BEDA082355FAE35C8C /* ReplaceMe.swift */,
+				E524873F9E1D99BEDA082355FAE35C8C /* YGButton.swift */,
 				8CD488DE9EF374D66BB96DDE0683537E /* Pod */,
 				F7FA116DD09CD7AB5FCD42034D45E3E3 /* Support Files */,
 			);
@@ -372,7 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CF742CEF9AFA30FEC078E656FA59B06 /* ReplaceMe.swift in Sources */,
+				5CF742CEF9AFA30FEC078E656FA59B06 /* YGButton.swift in Sources */,
 				91B0C07DC13D34E62FB94B20D7487957 /* YGButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
