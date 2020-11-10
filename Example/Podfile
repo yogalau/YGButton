@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YGButton_Example' do
+  pod 'YGButton', :path => '../'
+
+  target 'YGButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
